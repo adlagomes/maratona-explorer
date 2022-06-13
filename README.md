@@ -6,8 +6,6 @@
 
 ## 🚀 Tecnologias <a name="-tecnologias"></a>
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
-
 - HTML
 - CSS
 - Javascript
