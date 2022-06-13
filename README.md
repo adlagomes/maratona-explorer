@@ -1,4 +1,4 @@
-# Maratona Explorer
+# Jadis revela!
 
  Aplicação desenvolvida na Maratona Explorer - 06/2022
 
