@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 1113px;
+  margin: auto;
+  position: absolute;
+  font-family: "League Spartan", sans-serif;
+  background-color: #3a1752;
+  background-image: url(./images/jadis-revela-app-01.png);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+}
+
+.title-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 505px;
+  text-align: center;
+  margin-bottom: 250px;
+}
+
+.title-box h1 {
+  font-family: "Antonio", sans-serif;
+  font-size: 2rem;
+  font-weight: 200;
+  color: #ffed8c;
+  margin-bottom: 10px;
+  letter-spacing: 4px;
+}
+
+.title-box p {
+  font-size: 0.9rem;
+  color: #ffed8c;
+  width: 390px;
+}
+
+.form {
+  width: 350px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffffffab;
+  border-radius: 8px;
+  padding: 0.8em;
+}
+
+.form p {
+  font-size: 1.2rem;
+  color: #3a1752;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  padding-left: 0.5rem;
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 300px;
+  height: 30px;
+  background-color: #3a1752;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-family: "League Spartan", sans-serif;
+  font-size: 1rem;
+  transition: 200ms ease-in-out;
+}
+
+button:hover {
+  background-image: linear-gradient(#ffc237, #fd7e24, #fe8f41);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 110px;
+  margin-left: -46px;
+  height: 810px;
+  position: relative;
+}
+
+.speech-bubble {
+  width: 265px;
+  margin-top: -480px;
+  margin-left: 1270px;
+}
+
+.speech-bubble img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+#response {
+  position: absolute;
+  width: 240px;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: -55px;
+  margin-left: 10px;
+  color: #3a1752;
+}
+
+footer {
+  height: 40px;
+  position: absolute;
+  bottom: 0px;
+  margin-left: 40%;
+}
+
+footer a {
+  color: #e87bf2;
+}

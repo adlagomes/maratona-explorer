@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@200;400&family=League+Spartan&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Jadis Revela</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title-box">
+        <h1>Revelações nunca vistas antes!</h1>
+        <p>
+          Descubra de forma divertida qual será seu destino com respostas de “sim”
+          ou “não” com a ajuda da nossa cigana Jadis.
+        </p>
+      </div>
+      <div class="form">
+        <p>
+          Me faça uma pergunta e clique no botão abaixo para ter seu destino
+          revelado.
+        </p>
+        <input type="text" id="query" value="" placeholder="Insira sua pergunta" onfocus="this.value=''" onclick="clean()"/>
+        <button onclick="generateResponse()">Revelar Destino</button>
+      </div>
+    </div>
+    <div class="speech-bubble">
+      <img src="./images/balao-01.png" alt="">
+      <p id="response"></p>
+    </div>
+    <footer>
+      <a
+        href="https://br.freepik.com/fotos-vetores-gratis/vidente"
+        >Vidente vetor criado por upklyak - br.freepik.com</a
+      >
+    </footer>
+  </body>
+  <script type="text/javascript" src="./script.js" defer></script>
+</html>
