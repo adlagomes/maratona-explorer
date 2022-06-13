@@ -19,7 +19,7 @@ A extrutura de código javascript é bem simples. Primeiramente o código irá v
 Após a frase ser gerada o input de pergunta é limpo para que não seja possível que o usuário continue a gerar outras respostas para a mesma pergunta ainda presente no input. Além disso, quando o input estiver em foco, o balão de resposta da Jadis ficará vazio.
 
 Refatoração:
- Pretendo refatorar o código alterando também algumas funcionalidades e visual. Uma dessas alterações deverá ser o surgimento do balão de resposta. Uma vez que não haja fala da cigana, o balão não deverá existir. O balão de fala atual é um arquivo .png, mas acredito ele pode vir a ser um estilo css da div de respostas, se torando assim ainda mais interessante.
+ Pretendo refatorar o código alterando também algumas funcionalidades e visual. Uma dessas alterações deverá ser o surgimento do balão de resposta. Uma vez que não haja fala da cigana, o balão não deverá existir. O balão de fala atual é um arquivo .png, mas acredito que ele pode vir a ser um estilo css da div de respostas, se tornando assim ainda mais interessante.
 
 
 ---
