@@ -17,6 +17,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Essa aplicação deverá receber uma mensagem no input (caixa de texto), e ao clicar no botão ela me retornará uma resposta aleatória.
 
 
-Experimente clicando no link: 
-
 ---
